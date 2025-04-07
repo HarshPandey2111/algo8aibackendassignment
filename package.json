@@ -1,0 +1,23 @@
+{
+  "name": "node-auth-app",
+  "version": "1.0.0",
+  "description": "A Node.js authentication application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

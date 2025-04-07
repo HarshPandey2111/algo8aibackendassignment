@@ -1,0 +1,29 @@
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+
+# Dependency directories
+/coverage
+/.nyc_output
+
+# Optional npm cache directory
+.npm/
+
+# VSCode settings
+.vscode/
+
+# MacOS generated files
+.DS_Store
+
+# Logs and database files
+*.log
+*.pid
+*.seed
+*.sqlite
