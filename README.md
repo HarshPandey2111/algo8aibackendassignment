@@ -76,8 +76,4 @@ npm run dev
 - EJS
 - bcryptjs
 - express-session
-- connect-flash
 
-## License
-
-MIT 
