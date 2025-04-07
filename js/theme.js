@@ -1,4 +1,4 @@
-// Function to toggle between dark and light themes
+
 function toggleTheme() {
     const currentTheme = document.body.classList.contains("dark-mode") ? "dark" : "light";
     
@@ -14,7 +14,7 @@ function toggleTheme() {
     }
   }
   
-  // Set the theme based on user's last preference in localStorage
+// last prefference save 
   window.onload = () => {
     const savedTheme = localStorage.getItem("theme") || "light";
     if (savedTheme === "dark") {
